@@ -1,0 +1,43 @@
+.articleList {
+  margin: 0;
+  padding: 0;
+}
+
+:global(.ant-pagination.pagination) {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  margin-top: 27px;
+}
+
+:global(.pagination > .ant-pagination-item) {
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+:global(.pagination > .ant-pagination-item-active) {
+  background-color: #1890ff;
+}
+
+:global(.pagination > .ant-pagination-item-active a) {
+  color: #ffffff;
+}
+
+:global(.pagination > .ant-pagination-item:focus a) {
+  color: #ffffff;
+}
+
+:global(.pagination > .ant-pagination-prev .ant-pagination-item-link),
+:global(.pagination > .ant-pagination-next .ant-pagination-item-link) {
+  border: none;
+  background-color: transparent;
+}
+
+:global(#ArticleListContainer > .ArticleListContainer__spiner) {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: auto;
+  transform: scale(2);
+  display: block;
+}

@@ -1,0 +1,71 @@
+$componentBackground: #ffffff;
+$succesColor: #52c41a;
+
+.buttonsContainer {
+  height: 51px;
+  height: 100%;
+  display: flex;
+}
+
+.button {
+  height: 51px;
+  background-color: $componentBackground;
+  margin-top: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonSI {
+  text-align: left;
+  padding: 0;
+  width: 84px;
+  margin-right: 19px;
+  border: none;
+}
+
+.buttonSU {
+  color: $succesColor;
+  border: 1px solid $succesColor;
+  width: 109px;
+  padding: 0;
+}
+
+.ButtonCreateArtc {
+  width: 112.23;
+  height: 31.1px;
+  background-color: $componentBackground;
+  color: $succesColor;
+  border-radius: 5px;
+  border: 1px solid $succesColor;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 25px;
+  margin-right: 26.77px;
+  color: $succesColor;
+  cursor: pointer;
+}
+
+.userContainer {
+  margin-right: 13px;
+  margin-top: 19px;
+  min-height: 46px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 13px;
+}
+
+.buttonLO {
+  padding: 6px 18.17px 10px;
+  color: #000000;
+}
+
+.avatar {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+}

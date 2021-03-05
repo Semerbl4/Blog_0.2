@@ -1,0 +1,25 @@
+$componentBackground: #ffffff;
+$succesColor: #52c41a;
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $componentBackground;
+  height: 80px;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 22px 0 22px;
+}
+
+.titleContainer {
+  width: 147px;
+  height: 56px;
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  color: #000000;
+}

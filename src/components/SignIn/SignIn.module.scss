@@ -1,0 +1,94 @@
+$background-color: #ffffff;
+$decorative-color: #1890ff;
+$error: #f5222d;
+
+.container {
+  background-color: $background-color;
+  width: 384px;
+  min-height: 374px;
+  margin-top: 59px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px 32px 48px 32px;
+}
+
+.title {
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.inputTitle {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 22px;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0 12px 0 12px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: $decorative-color;
+}
+
+.login {
+  background-color: $decorative-color;
+  color: $background-color;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  margin-top: 21px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.login:active {
+  filter: brightness(120%);
+}
+
+.login:focus {
+  box-shadow: 5px 5px 5px grey;
+}
+
+.signUpOffer {
+  display: block;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.redirect {
+  color: $decorative-color;
+}
+
+.inputValidError {
+  color: $error;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.passOrEmailIncor {
+  margin-top: -25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+:global(.unexpectedErrorGlobal) {
+  padding: 5px !important;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}

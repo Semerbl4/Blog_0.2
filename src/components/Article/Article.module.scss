@@ -1,0 +1,88 @@
+$info-color: #1890ff;
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  padding: 15px 14px 0px 19px;
+  background-color: #ffffff;
+  width: 941px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px gray;
+}
+
+.post {
+  width: 682px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.title {
+  margin: 0;
+  margin-right: 13px;
+  font-size: 20px;
+  color: $info-color;
+}
+
+.likes {
+  padding-left: 21px;
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+
+.likesImg {
+  background-image: url(../../imgs/like.svg);
+}
+
+.tags {
+  padding: 0;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.tag {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  line-height: 14.52px;
+  padding: 2px 6px 3px 5px;
+  margin-right: 5px;
+}
+
+.content {
+  margin: 0;
+  line-height: 22px;
+}
+
+.person {
+  display: flex;
+}
+
+.personInfo {
+  margin-right: 12px;
+}
+
+.personName {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.personDate {
+  margin: 0;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+}
